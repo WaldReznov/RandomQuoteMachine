@@ -1,0 +1,28 @@
+<!--
+ - Created by vershov on 27.01.2020.
+ -->
+
+<!-- Random Quote Machine -->
+<template>
+
+    <div class="template-container">
+        <div class="quote-container">
+            <div class="quote-main">
+                <h2 class="quote-title">
+                    <p>
+                        <span class="quote-title-main">"</span>
+                        {quote}
+                        <span class="quote-title-main">"</span>
+                    </p>
+                </h2>
+                <div class="author-container">
+                    <p class="author">- {author}</p>
+                </div>
+                <div class="changeQuote-container">
+                    <button class="changeQuote" onclick={changeQuotes}>Change Quote</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</template>

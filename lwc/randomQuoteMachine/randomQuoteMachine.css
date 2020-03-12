@@ -1,0 +1,77 @@
+/**
+ * Created by vershov on 27.01.2020.
+ */
+
+
+.template-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    min-height: 100vh;
+    min-width: 100vw;
+    background: rgb(128,128,128);
+    color: rgb(128,128,128);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 1s all;
+}
+
+.quote-container{
+    min-width: 450px;
+    color: gray;
+    transition: 1s all;
+}
+
+.quote-main{
+    width: 450px;
+    background: #fff;
+    border-radius: 10px;
+    padding: 30px;
+    transition: 1s all;
+}
+
+.author-container{
+    text-align: center;
+    font-size: 16px;
+    margin-top: 20px;
+    transition: 1s all;
+}
+
+.changeQuote {
+    margin-top: 30px;
+    height: 38px;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    outline: none;
+    padding: 8px 18px 6px 18px;
+    cursor: pointer;
+    transition: 1s all;
+}
+
+.quote-title{
+    font-size: 28px;
+    text-align: center;
+    transition: 1s all;
+}
+
+.changeQuote-container {
+    display: flex;
+    justify-content: center;
+    transition: 1s all;
+}
+
+@media screen and (max-width: 470px) {
+    .quote-container {
+        max-width: 450px;
+        margin: 0 10px;
+        min-width: auto;
+    }
+
+    .quote-main{
+        max-width: 450px;
+        width: auto;
+    }
+
+}
